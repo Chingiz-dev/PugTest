@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Chingiz-dev/pugtest/issues"
   },
-  "homepage": "https://github.com/Chingiz-dev/pugtest#readme"
+  "homepage": "https://github.com/Chingiz-dev/pugtest#readme",
+  "devDependencies": {
+    "pug": "^3.0.0"
+  }
 }
