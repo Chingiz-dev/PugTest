@@ -1,0 +1,13 @@
+mixin navLink(link, name)
+    li
+        a(href=link).nav-link=name
+
+- var navLinks = [{link: "#/", name: 1}, {link: "#/oho", name: "nine"}, {link: "#/hello", name: "do"}]
+
+
+
+header
+    .header
+        ul.nav
+            for i in navLinks
+                +navLink(i.link, i.name)

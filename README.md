@@ -9,3 +9,4 @@ rep for Pug learning and testing
 # Set-ExecutionPolicy unrestricted
 # pug --help
 # pug index.pug -P
+# pug page.pug -P
